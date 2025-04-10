@@ -11,3 +11,5 @@ echo "Installing gcc with Homebrew"
 brew install gcc
 echo "Installing fzf with Homebrew"
 brew install fzf
+
+brew install starship
