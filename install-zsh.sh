@@ -2,9 +2,9 @@
 
 sudo apt install zsh
 
-echo "Instalando Oh My Zsh..."
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
-echo "Oh My Zsh instalado com sucesso."
+# echo "Instalando Oh My Zsh..."
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
+# echo "Oh My Zsh instalado com sucesso."
 
 echo "Clonando plugins do Zsh..."
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions

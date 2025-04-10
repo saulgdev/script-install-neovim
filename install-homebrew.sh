@@ -13,3 +13,5 @@ echo "Installing fzf with Homebrew"
 brew install fzf
 
 brew install starship
+
+echo 'eval "$(starship init zsh)"' >>/home/saul/.zshrc
